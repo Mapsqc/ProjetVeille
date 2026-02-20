@@ -86,6 +86,22 @@ nav {
     gap: 15px;
 }
 
+.liste-sources {
+    li {
+        margin: 8px 0;
+    }
+
+    a {
+        color: #aaaaaa;
+        text-decoration: none;
+
+        &:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    }
+}
+
 .img-section {
     display: block;
     max-width: 100%;
