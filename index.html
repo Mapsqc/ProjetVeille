@@ -19,124 +19,124 @@
         <a href="#Stabilité">Stabilité</a>
         <a href="#conclusion">Conclusion</a>
         <a href="#Maintenabilité">Maintenabilité</a>
-        <a href="#AvantagevsDesavantages">Avantage vs Desavantages</a>
+        <a href="#AvantagevsDesavantages">Avantage vs Désavantages</a>
         <a href="#Comparaison">Comparaison</a>
     </nav>
 
     <div class="section" id="Description">
         <h2>Description de l'objet expérimentée</h2>
         <p></p>
-        <p>Dans mon exprérimentation l'objet tester est une camera, le modele technique est ASUS 04081-00218700 c'est une caméra de type "USB2.0 FHD UVC WebCam". Elle permet de prendre non seulement des photos, mais surtout des vidéos de bonne qualité (1080p à 30fps).
-            C'est jutement cette fonctionnalité que je vais utitiliser pour mon projet de jeu de pierre papier ciseaux.</p>
-        <p>Cette camera a donc été fabriquée par ASUS, une entreprise Taiwanese de fabrication d'équipements informatiques. Asus ne fait pas que des cameras, il fabrique aussi des ordinateurs, des tablettes, des smartphones, etc. Un peux tout ce qui est dans le monde de la tech.</p>
-        <p>Il faut savoir que ce type de camera est tres universelle, avec les bons adptateurs elle peut etre utilisée sur n'importe quel ordinateur ou systeme electrique sur lequel on la connecte.</p>
-        <img src="videos\camera.png" alt="Camera">
-        
-        <p>Pour la shématisation matérielle de la caméra, le processus de l'utlilisation dans l'ordinateur se fait en 4 étapes : </p>
+        <p>Dans mon expérimentation l'objet testé est une caméra, le modèle technique est ASUS 04081-00218700 c'est une caméra de type "USB2.0 FHD UVC WebCam". Elle permet de prendre non seulement des photos, mais surtout des vidéos de bonne qualité (1080p à 30fps).
+            C'est justement cette fonctionnalité que je vais utiliser pour mon projet de jeu de pierre papier ciseaux.</p>
+        <p>Cette caméra a donc été fabriquée par ASUS, une entreprise Taiwanese de fabrication d'équipements informatiques. Asus ne fait pas que des caméras, il fabrique aussi des ordinateurs, des tablettes, des smartphones, etc. Un peu tout ce qui est dans le monde de la tech.</p>
+        <p>Il faut savoir que ce type de caméra est très universelle, avec les bons adaptateurs elle peut être utilisée sur n'importe quel ordinateur ou système électrique sur lequel on la connecte.</p>
+        <img src="videos/camera.png" alt="Camera" class="img-section">
+
+        <p>Pour la schématisation matérielle de la caméra, le processus de l'utilisation dans l'ordinateur se fait en 4 étapes : </p>
         <ul>
-            <li>1. La camera prend une photo ou une video.</li>
-            <li>2. La vidéo s'en va vers la carte mere de l'ordinateur.</li>
-            <li>3. La carte mere traite la vidéo et la transmet au processeur (CPU).</li>
-            <li>4. Le systeme d'exploitation Windows 11 traite la vidéo et la transmet au programme qui la demande.</li>
+            <li>1. La caméra prend une photo ou une vidéo.</li>
+            <li>2. La vidéo s'en va vers la carte mère de l'ordinateur.</li>
+            <li>3. La carte mère traite la vidéo et la transmet au processeur (CPU).</li>
+            <li>4. Le système d'exploitation Windows 11 traite la vidéo et la transmet au programme qui la demande.</li>
         </ul>
     </div>
 
     <div class="section" id="fonctionnement">
         <h2>Expérimentation</h2>
-        <p>Je vais expériementer la qualité, la vitesse et la fiabilité de la camera pour mon projet de jeu de pierre papier ciseaux. Voir si elle propose une qualité assez élever pour ce genre de précision.</p>
-        <h4>Ematériel requis pour les expérimentations :</h4>
+        <p>Je vais expérimenter la qualité, la vitesse et la fiabilité de la caméra pour mon projet de jeu de pierre papier ciseaux. Voir si elle propose une qualité assez élever pour ce genre de précision.</p>
+        <h4>Matériel requis pour les expérimentations :</h4>
         <ul>
             <li>Un ordinateur avec Windows 11.</li>
-            <li>Une camera USB2.0 FHD UVC WebCam.</li>
+            <li>Une caméra USB2.0 FHD UVC WebCam.</li>
             <li>Un programme de traitement d'image (OpenCV).</li>
             <li>Un programme de reconnaissance de mains (MediaPipe).</li>
         </ul>
-        <h4>Expérimentation 1 : Qualité de la camera</h4>
-        <p>Lancer le jeux en écrivant python rps_game.py dans le terminal, cliquer sur espace pour jouer, et observer la qualité de la camera.</p>
+        <h4>Expérimentation 1 : Qualité de la caméra</h4>
+        <p>Lancer le jeu en écrivant python rps_game.py dans le terminal, cliquer sur espace pour jouer, et observer la qualité de la caméra.</p>
         <video width="800" controls>
             <source src="videos/ex2.mp4" type="video/mp4">
             Ton navigateur ne supporte pas la vidéo.
         </video>
-        <p>Resultat : On voit que la qualité de la camera est assez bonne pour clairement voir les formes que les mains font.</p>
+        <p>Résultat : On voit que la qualité de la caméra est assez bonne pour clairement voir les formes que les mains font.</p>
 
-        
-        <h4>Expérimentation 2 : Systeme reconnait chaque doigt</h4>
-        <p>Lancer le jeux en écrivant python rps_game.py dans le terminal, cliquer sur espace pour jouer et regarder si le systeme reconnait chaque doigt.</p>
+
+        <h4>Expérimentation 2 : Système reconnaît chaque doigt</h4>
+        <p>Lancer le jeu en écrivant python rps_game.py dans le terminal, cliquer sur espace pour jouer et regarder si le système reconnaît chaque doigt.</p>
         <video width="800" controls>
             <source src="videos/ex3.mp4" type="video/mp4">
             Ton navigateur ne supporte pas la vidéo.
         </video>
-        <p>Resultat : On voit que le programme voit chaque doigt individuellement, c'est un élément crucial pour le jeu.</p>
+        <p>Résultat : On voit que le programme voit chaque doigt individuellement, c'est un élément crucial pour le jeu.</p>
 
-        <h4>Expérimentation 3 : Reconnaitre les bons choix de signe</h4>
-        <p>Lancer le jeux en écrivant python rps_game.py dans le terminal, cliquer sur espace pour jouer, tester les trois différents choix de signe qui sont roche, papier et ciseaux.</p>
+        <h4>Expérimentation 3 : Reconnaître les bons choix de signe</h4>
+        <p>Lancer le jeu en écrivant python rps_game.py dans le terminal, cliquer sur espace pour jouer, tester les trois différents choix de signe qui sont roche, papier et ciseaux.</p>
         <video width="800" controls>
             <source src="videos/ex4.mp4" type="video/mp4">
             Ton navigateur ne supporte pas la vidéo.
         </video>
-        <p>Resultat : On voit que chaque signe est bien identifié part le programme et qu'il ne fait pas confusion entre les trois choix.</p>
+        <p>Résultat : On voit que chaque signe est bien identifié par le programme et qu'il ne fait pas confusion entre les trois choix.</p>
 
         <h4>Expérimentation 4 : Choisir le signe gagnant en fonction du choix de chaque joueur</h4>
-        <p>Lancer le jeux en écrivant python rps_game.py dans le terminal, cliquer sur espace pour jouer, le premier joueur choisit papier et le second joueur choisit ciseaux.</p>
+        <p>Lancer le jeu en écrivant python rps_game.py dans le terminal, cliquer sur espace pour jouer, le premier joueur choisit papier et le second joueur choisit ciseaux.</p>
         <video width="800" controls>
             <source src="videos/ex1.mp4" type="video/mp4">
             Ton navigateur ne supporte pas la vidéo.
         </video>
-        <p>Resultat : On voit que le joueur qui a choisi ciseaux a gagné contre le joueur qui a choisi papier. Parcontre, parfois</p>
+        <p>Résultat : On voit que le joueur qui a choisi ciseaux a gagné contre le joueur qui a choisi papier. Par contre, parfois</p>
     </div>
 
     <div class="section" id="Avis">
         <h2>Avis</h2>
         <h3>Justification de la techno utilisée pour le projet.</h3>
-        <p>Je pense que les expérimentations on été tres concluante, le seul problème du programme est que parfois si la mains est mal placée, il pense voir un feuille alors que c'est un ciseaux. C'est du au fait que les doigts sont superposées donc il prend pour aquis qu'il y en a plus de deux.</p>
-        <p>Pour l'utilisation de la camera, j'utilise OpenCV qui permet de prendre la photo, ouvrire la camera, la stocker et dessiner les lignes sur l'image. Je trouve que c'est une technologie tres intéressante a utiliser,car elle est facile d'utilisation et elle laise place a beaucoup de place pour la créativité.</p>
-        <p>Je trouve que media pipe c'est une technologie avec beaucoup de potentiel, dans mon cas d'utilisation elle utilise une minime partie de ses capacités. Je l'imagine dans la reconnaissance d'objets ou d'humain, dans un contexte militaire par exemple.
-            Si cette technologie est combinée avec la camera d'un drone militaire par exemple, il pourrait reconnaitre les objets ou les humains et les suivre, ou même les detruire.
+        <p>Je pense que les expérimentations ont été très concluante, le seul problème du programme est que parfois si la main est mal placée, il pense voir un feuille alors que c'est un ciseaux. C'est du au fait que les doigts sont superposées donc il prend pour acquis qu'il y en a plus de deux.</p>
+        <p>Pour l'utilisation de la caméra, j'utilise OpenCV qui permet de prendre la photo, ouvrir la caméra, la stocker et dessiner les lignes sur l'image. Je trouve que c'est une technologie très intéressante à utiliser, car elle est facile d'utilisation et elle laisse place à beaucoup de place pour la créativité.</p>
+        <p>Je trouve que MediaPipe c'est une technologie avec beaucoup de potentiel, dans mon cas d'utilisation elle utilise une minime partie de ses capacités. Je l'imagine dans la reconnaissance d'objets ou d'humain, dans un contexte militaire par exemple.
+            Si cette technologie est combinée avec la caméra d'un drone militaire par exemple, il pourrait reconnaître les objets ou les humains et les suivre, ou même les détruire.
         </p>
-        <p>Parcontre, je pense que pour l'instant media pipe est trop imprécie, dans des contextes sérieux ou l'erreur peux etre fatale, tu veux que ton programme n'aille aucune confusion au niveau de la précision, surtout si ca mets la vie d'autres personnes en jeux.</p>
-        <p>Pour ce qui est de l'usage plus récréatif comme des jeux, des plateformes d'apprentissage ect... Media pipe est clairement pret pour etre utilisé. Meme si le programme présente encore des faiblesse, comme dit plus haut, il est reste tout a fait utilisable. </p>
+        <p>Par contre, je pense que pour l'instant MediaPipe est trop imprécis, dans des contextes sérieux ou l'erreur peux etre fatale, tu veux que ton programme n'aille aucune confusion au niveau de la précision, surtout si ça met la vie d'autres personnes en jeu.</p>
+        <p>Pour ce qui est de l'usage plus récréatif comme des jeux, des plateformes d'apprentissage etc... MediaPipe est clairement prêt pour être utilisé. Même si le programme présente encore des faiblesse, comme dit plus haut, il est reste tout à fait utilisable. </p>
     </div>
 
     <div class="section" id="Longévité">
         <h2>Longévité</h2>
-        <p>Le projet utilise la camera ASUS 04081-00218700 pour capturée les images de la mains du joueurs et chaque doigts.
-        En terme de longévité, tant que l'objectif de la camera est intact et que la machine qui fait rouler le programme a de l'électricité le programme peut fonctionner.</p>
-        <p> Dans le temps, la résolution des camera vas augmenter, mais tant que l'objectif de la camera utilise envoi des images de qualité HD (1080p à 30fps), le programme peut fonctionner.</p>
-        Ce qui est des technologies utilisées comme OpenCV et Metapipe, des mise a jours ou des corrections de bugs peuvent etre effectuées pour maintenir le programme en fonctionnement. Dans un futur lointain, ces mises a jours pourrait devenir si lourdes qu'il faudrait une machine plus puissant pour faire marcher le programme.</p>
+        <p>Le projet utilise la caméra ASUS 04081-00218700 pour capturer les images de la mains du joueurs et chaque doigts.
+        En terme de longévité, tant que l'objectif de la caméra est intact et que la machine qui fait rouler le programme a de l'électricité le programme peut fonctionner.</p>
+        <p> Dans le temps, la résolution des caméras vas augmenter, mais tant que l'objectif de la caméra utilise envoie des images de qualité HD (1080p à 30fps), le programme peut fonctionner.</p>
+        <p>Ce qui est des technologies utilisées comme OpenCV et MediaPipe, des mises à jour ou des corrections de bugs peuvent être effectuées pour maintenir le programme en fonctionnement. Dans un futur lointain, ces mises à jour pourrait devenir si lourdes qu'il faudrait une machine plus puissant pour faire marcher le programme.</p>
     </div>
 
     <div class="section" id="Stabilité">
         <h2>Stabilité</h2>
-        <p>Lors des expérimentations, la camera a eu un probleme de reconnaissance des doigts si la mains était en mouvement lors de la prise de la photo. Ce probleme fait en sorte que le jeux ne comptabilise pas le signe choisi quand ca ce produit.</p>
-        <p>Ce probleme d'instabilité au niveau de la reconnaissance des doigts pourrait etre encore plus problématique si d'autre joueurs y joue sans etre au courant de ce probleme. Si la camera ne reconnait pas le signe choisi, le jeux ne comptabilise pas le pointage et le joueur perd.</p>
-        <p>En plus, si la tech change dans le futur et que la maniere dont les informations de MediaPipe sont traitées change le programme pourrait avoir de l'instabilité. </p>
+        <p>Lors des expérimentations, la caméra a eu un problème de reconnaissance des doigts si la main était en mouvement lors de la prise de la photo. Ce problème fait en sorte que le jeu ne comptabilise pas le signe choisi quand ça se produit.</p>
+        <p>Ce problème d'instabilité au niveau de la reconnaissance des doigts pourrait être encore plus problématique si d'autre joueurs y joue sans être au courant de ce problème. Si la caméra ne reconnaît pas le signe choisi, le jeu ne comptabilise pas le pointage et le joueur perd.</p>
+        <p>En plus, si la tech change dans le futur et que la manière dont les informations de MediaPipe sont traitées change le programme pourrait avoir de l'instabilité. </p>
     </div>
 
     <div class="section" id="Efficacité">
         <h2>Efficacité:</h2>
-        <p>En terme d'éfficité on voit que si les mains sont trop supperposées, les doigts trop loin de la camera, mauvais éclairage ou meme une camera trop sale peut faire en sorte que le programme de fonctionne plus. Ce qui laisse a désier au niveau de l'éfficacité générale de cette manieres de faire.</p>
-        <p>Meme si certain de ces facteurs ne tiennes pas directement de la tech, ca demontre neanmoins que le programme est pas assez fort pour plusieurs situations. Ce qui rend cette technique détection moins crédible pour des jeux plus compétitifs ou la confusion de programme peux mener a beaucoup de frustration pour les joueurs.</p>
+        <p>En terme d'efficacité on voit que si les mains sont trop superposées, les doigts trop loin de la caméra, mauvais éclairage ou même une caméra trop sale peut faire en sorte que le programme ne fonctionne plus. Ce qui laisse à désirer au niveau de l'efficacité générale de cette manière de faire.</p>
+        <p>Même si certain de ces facteurs ne tiennes pas directement de la tech, ça démontre néanmoins que le programme est pas assez fort pour plusieurs situations. Ce qui rend cette technique détection moins crédible pour des jeux plus compétitifs ou la confusion de programme peux mener à beaucoup de frustration pour les joueurs.</p>
     </div>
 
     <div class="section" id="Maintenabilité">
         <h2>Maintenabilité</h2>
-        <p>Le programme a été conçu pour avoir une bonne maintenabilité . En effet, le programme a été écrit de manière à être clair et structuré, ce qui le rend particulièrement facile à améliorer ou à corriger dans le cas d’un bug.
-             Aussi, le code est divisé en fonctions pour que les modifications d’une partie n’affecte pas l’entièreté du code. Par la suite, en ce qui concerne l’utilisation, le programme est tout autant pratique. En ce sens, la seule nécessité pour pouvoir l’utiliser est une caméra. 
-             Une connexion réseau n’est pas essentielle à son fonctionnement.</p>
+        <p>Le programme a été conçu pour avoir une bonne maintenabilité . En effet, le programme a été écrit de manière à être clair et structuré, ce qui le rend particulièrement facile à améliorer ou à corriger dans le cas d'un bug.
+             Aussi, le code est divisé en fonctions pour que les modifications d'une partie n'affecte pas l'entièreté du code. Par la suite, en ce qui concerne l'utilisation, le programme est tout autant pratique. En ce sens, la seule nécessité pour pouvoir l'utiliser est une caméra.
+             Une connexion réseau n'est pas essentielle à son fonctionnement.</p>
     </div>
 
     <div class="section" id="AvantagevsDesavantages">
-        <h2>Avantage vs Desavantages</h2>
-        <p>Le programme a été conçu pour avoir une bonne maintenabilité . En effet, le programme a été écrit de manière à être clair et structuré, ce qui le rend particulièrement facile à améliorer ou à corriger dans le cas d’un bug.
-             Aussi, le code est divisé en fonctions pour que les modifications d’une partie n’affecte pas l’entièreté du code. Par la suite, en ce qui concerne l’utilisation, le programme est tout autant pratique. En ce sens, la seule nécessité pour pouvoir l’utiliser est une caméra. 
-             Une connexion réseau n’est pas essentielle à son fonctionnement.</p>
+        <h2>Avantage vs Désavantages</h2>
+        <p>Le programme a été conçu pour avoir une bonne maintenabilité . En effet, le programme a été écrit de manière à être clair et structuré, ce qui le rend particulièrement facile à améliorer ou à corriger dans le cas d'un bug.
+             Aussi, le code est divisé en fonctions pour que les modifications d'une partie n'affecte pas l'entièreté du code. Par la suite, en ce qui concerne l'utilisation, le programme est tout autant pratique. En ce sens, la seule nécessité pour pouvoir l'utiliser est une caméra.
+             Une connexion réseau n'est pas essentielle à son fonctionnement.</p>
     </div>
 
     <div class="section" id="Comparaison">
         <h2>Comparaison</h2>
-        <p>Pour le programme, j’ai dû choisir entre deux logiciels de tracking. Le premier étant MediaPipe et le deuxième étant OpenPose.
-             MediaPipe est un logiciel prêt à l’emploi qui offre des solutions plus simples, ce qui est très utile pour le développement de ce programme.
-              Pour ce qui est de OpenPose, il s’agit d’un logiciel très précis, mais qui nécessite une configuration plus complexe. Il donne plus de contrôle et de flexibilité, mais demande beaucoup plus de travail pour arriver à la performance de MediaPipe en termes de détection de mains.
+        <p>Pour le programme, j'ai dû choisir entre deux logiciels de tracking. Le premier étant MediaPipe et le deuxième étant OpenPose.
+             MediaPipe est un logiciel prêt à l'emploi qui offre des solutions plus simples, ce qui est très utile pour le développement de ce programme.
+              Pour ce qui est de OpenPose, il s'agit d'un logiciel très précis, mais qui nécessite une configuration plus complexe. Il donne plus de contrôle et de flexibilité, mais demande beaucoup plus de travail pour arriver à la performance de MediaPipe en termes de détection de mains.
         Ainsi, MediaPipe est le logiciel choisi pour sa simplicité et sa performance.</p>
     </div>
 
