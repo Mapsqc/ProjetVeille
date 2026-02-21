@@ -39,6 +39,51 @@
             <li>3. La carte mère traite la vidéo et la transmet au processeur (CPU).</li>
             <li>4. Le système d'exploitation Windows 11 traite la vidéo et la transmet au programme qui la demande.</li>
         </ul>
+
+        <svg width="100%" viewBox="0 0 920 160" xmlns="http://www.w3.org/2000/svg" style="font-family: Arial, sans-serif; margin-top: 20px;">
+            <defs>
+                <marker id="fleche" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#aaaaaa"/>
+                </marker>
+            </defs>
+
+            <!-- Caméra ASUS -->
+            <rect x="10" y="45" width="145" height="70" rx="10" ry="10" fill="#3a3a3a" stroke="#aaaaaa" stroke-width="1.5"/>
+            <text x="82" y="76" text-anchor="middle" fill="#cccccc" font-size="12">Caméra ASUS</text>
+            <text x="82" y="95" text-anchor="middle" fill="#999999" font-size="11">USB 2.0</text>
+
+            <!-- Flèche 1 -->
+            <line x1="155" y1="80" x2="193" y2="80" stroke="#aaaaaa" stroke-width="1.5" marker-end="url(#fleche)"/>
+
+            <!-- Carte mère -->
+            <rect x="195" y="45" width="135" height="70" rx="10" ry="10" fill="#3a3a3a" stroke="#aaaaaa" stroke-width="1.5"/>
+            <text x="262" y="84" text-anchor="middle" fill="#cccccc" font-size="12">Carte mère</text>
+
+            <!-- Flèche 2 -->
+            <line x1="330" y1="80" x2="368" y2="80" stroke="#aaaaaa" stroke-width="1.5" marker-end="url(#fleche)"/>
+
+            <!-- CPU / Windows 11 -->
+            <rect x="370" y="45" width="145" height="70" rx="10" ry="10" fill="#3a3a3a" stroke="#aaaaaa" stroke-width="1.5"/>
+            <text x="442" y="76" text-anchor="middle" fill="#cccccc" font-size="12">CPU</text>
+            <text x="442" y="95" text-anchor="middle" fill="#999999" font-size="11">Windows 11</text>
+
+            <!-- Flèche 3 -->
+            <line x1="515" y1="80" x2="553" y2="80" stroke="#aaaaaa" stroke-width="1.5" marker-end="url(#fleche)"/>
+
+            <!-- Programme -->
+            <rect x="555" y="25" width="165" height="110" rx="10" ry="10" fill="#3a3a3a" stroke="#aaaaaa" stroke-width="1.5"/>
+            <text x="637" y="65" text-anchor="middle" fill="#cccccc" font-size="12">rps_game.py</text>
+            <text x="637" y="85" text-anchor="middle" fill="#999999" font-size="11">OpenCV</text>
+            <text x="637" y="103" text-anchor="middle" fill="#999999" font-size="11">MediaPipe</text>
+
+            <!-- Flèche 4 -->
+            <line x1="720" y1="80" x2="758" y2="80" stroke="#aaaaaa" stroke-width="1.5" marker-end="url(#fleche)"/>
+
+            <!-- Écran -->
+            <rect x="760" y="45" width="145" height="70" rx="10" ry="10" fill="#3a3a3a" stroke="#aaaaaa" stroke-width="1.5"/>
+            <text x="832" y="76" text-anchor="middle" fill="#cccccc" font-size="12">Écran</text>
+            <text x="832" y="95" text-anchor="middle" fill="#999999" font-size="11">Résultat affiché</text>
+        </svg>
     </div>
 
     <div class="section" id="fonctionnement">
